@@ -1,3 +1,7 @@
+_This repo has been forked purely to publish an npm module to solve https://github.com/jaredpalmer/react-simple-infinite-scroll/issues/6_
+
+---
+
 # React Simple Infinite Scroll
 
 A brutally simple infinite scroll helper component.
@@ -10,7 +14,7 @@ npm install react-simple-infinite-scroll --save
 
 ## Usage
 
-This component uses a "sentinel" `div` (with a React ref) that calls `getBoundingClientRect()` to measure its position and fire off a callback when it becomes visible again. Note: this package eventually becomes somewhat inefficient on very very very large lists because it keeps adding nodes to the DOM. However, this package is extremely valuable for situations when a windowing technique is not possible and when a user is going to realistically scroll a few hundred rows (and _not_ thousands of rows). 
+This component uses a "sentinel" `div` (with a React ref) that calls `getBoundingClientRect()` to measure its position and fire off a callback when it becomes visible again. Note: this package eventually becomes somewhat inefficient on very very very large lists because it keeps adding nodes to the DOM. However, this package is extremely valuable for situations when a windowing technique is not possible and when a user is going to realistically scroll a few hundred rows (and _not_ thousands of rows).
 
 ### Why not use windowing (`react-virtualized`)?
 
@@ -130,7 +134,7 @@ export class MyInfiniteScrollExample extends React.Component {
 ```
 
 
-## API Reference 
+## API Reference
 
 ### Props
 

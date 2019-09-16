@@ -1,10 +1,10 @@
 {
-  "name": "react-simple-infinite-scroll",
-  "description": "A brutally simple React infinite scroll component",
+  "name": "react-simple-infinite-scroll-patched",
+  "description": "A (patched) brutally simple React infinite scroll component",
   "version": "0.0.2",
   "license": "MIT",
-  "author": "Jared Palmer <jared@palmer.net>",
-  "repository": "jaredpalmer/react-simple-infinite-scroll",
+  "author": "Iestyn Williams <hello_iest@me.com> (http://github.com/iest)",
+  "repository": "iest/react-simple-infinite-scroll",
   "keywords": [
     "react",
     "infinite",
